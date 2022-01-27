@@ -1,8 +1,6 @@
-# Name of our action
 name: 'Chromatic'
 # The event that will trigger the action
 on: push
-
 jobs:
   test:
     # The operating system it will run on
