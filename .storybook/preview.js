@@ -13,7 +13,7 @@ export const decorators = [
 ];
 
 
-export const parameters = {
+/*export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
@@ -21,4 +21,14 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+}*/
+
+export const parameters = {
+  actions: { argTypesRegex: "^on[A-Z].*" },
+  a11y: {
+    // the target DOM element
+    element: '#root',
+    // sets the execution mode for the addon
+    manual: false,
+  },
+  };
