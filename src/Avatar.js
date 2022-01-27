@@ -6,10 +6,10 @@ import { glow } from './shared/animation';
 import { Icon } from './Icon';
 
 export const sizes = {
-  large: 40,
-  medium: 28,
-  small: 20,
-  tiny: 16,
+  large: 50,
+  medium: 30,
+  small: 27,
+  tiny: 19,
 };
 
 const Image = styled.div`

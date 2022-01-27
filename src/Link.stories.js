@@ -8,7 +8,7 @@ import { StoryLinkWrapper } from './StoryLinkWrapper';
 
 const CustomLink = styled(Link)`
   && {
-    color: red;
+    color: black;
   }
 `;
 
